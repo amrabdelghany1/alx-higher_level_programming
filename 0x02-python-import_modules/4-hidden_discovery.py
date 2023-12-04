@@ -2,8 +2,8 @@
 if __name__ == '__main__':
     import py_compile
     import code
+    import hidden_4
 
-    compiled = __import__('hidden_4')
-    for name in sorted(module_names):
+    for name in dir(hidden_4):
         if not name.startswith('__'):
             print(name)
