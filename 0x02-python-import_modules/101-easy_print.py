@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-from 101-easy_print import *
+__builtins__.__dict__['print']("#pythoniscool")
