@@ -4,6 +4,6 @@ def new_in_list(my_list, idx, element):
         my_list.copy()
         return my_list
     else:
-        my_list.sorted()
+        my_list = sorted(my_list)
         my_list[idx] = element
         return my_list
