@@ -3,4 +3,4 @@
 SELECT cities.id, cities.name, states.name
 FROM cities
 JOIN states
-WHERE cities.id = states.id;
+ON cities.id = states.id;
